@@ -18,16 +18,17 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.6
+    - python >=3.7
   run:
     - cma
     - joblib
     - matplotlib-base
     - psutil
-    - python >=3.6
+    - python >=3.7
     - pyyaml
     - scipy
     - sympy
+    - importlib_metadata
 
 test:
   imports:
