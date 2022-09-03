@@ -29,6 +29,7 @@ requirements:
     - scipy
     - sympy
     - importlib_metadata
+    - tabulate
 
 test:
   imports:
