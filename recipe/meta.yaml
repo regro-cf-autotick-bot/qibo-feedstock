@@ -1,5 +1,5 @@
 {% set name = "qibo" %}
-{% set version = "0.1.7" %}
+{% set version = "0.1.8" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://github.com/qiboteam/qibo/archive/v{{ version }}.tar.gz
-  sha256: c38d1131e0109c1b42390b92238385ab12facfa27381c56cfa1498aae6ef1904
+  sha256: ccedca36d2d1065cc4ee44af75db3c662f923813f6a84ed2289ebfd8538428f6
 
 build:
   number: 0
@@ -29,6 +29,7 @@ requirements:
     - scipy
     - sympy
     - importlib_metadata
+    - tabulate
 
 test:
   imports:
