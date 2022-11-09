@@ -1,5 +1,5 @@
 {% set name = "qibo" %}
-{% set version = "0.1.8" %}
+{% set version = "0.1.9" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://github.com/qiboteam/qibo/archive/v{{ version }}.tar.gz
-  sha256: ccedca36d2d1065cc4ee44af75db3c662f923813f6a84ed2289ebfd8538428f6
+  sha256: 2ef3186a7737fe0417da572d36594f0cecdec61fa489a60fdb7dc6330ef27a5d
 
 build:
   number: 0
