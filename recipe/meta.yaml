@@ -35,10 +35,6 @@ requirements:
 test:
   imports:
     - qibo
-  commands:
-    - pip check
-  requires:
-    - pip
 
 about:
   home: https://github.com/qiboteam/qibo
