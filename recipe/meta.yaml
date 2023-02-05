@@ -30,6 +30,7 @@ requirements:
     - sympy
     - importlib_metadata
     - tabulate
+    - nlopt
 
 test:
   imports:
