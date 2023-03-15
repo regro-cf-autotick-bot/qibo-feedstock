@@ -1,11 +1,11 @@
-About qibo
-==========
+About qibo-feedstock
+====================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/qibo-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/qiboteam/qibo
 
 Package license: Apache-2.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/qibo-feedstock/blob/main/LICENSE.txt)
 
 Summary: A framework for quantum computing with hardware acceleration.
 
