@@ -18,20 +18,17 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.7
+    - python >=3.8
   run:
     - cma
     - numpy
     - joblib
     - matplotlib-base
     - psutil
-    - python >=3.7
-    - pyyaml
+    - python >=3.8
     - scipy
     - sympy
-    - importlib_metadata
     - tabulate
-    - nlopt
 
 test:
   imports:
