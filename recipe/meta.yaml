@@ -1,5 +1,5 @@
 {% set name = "qibo" %}
-{% set version = "0.2.0" %}
+{% set version = "0.2.1" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://github.com/qiboteam/qibo/archive/v{{ version }}.tar.gz
-  sha256: ad7358a969dfa073eed8165a33c87b3f85bb4ab7acfeef11827f3cb7a6f11151
+  sha256: ebd4a69394a86173225f79bf6a30887837f94b865d49fa11c1e61f3db7abcd16
 
 build:
   number: 0
@@ -18,7 +18,7 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.8
+    - python >=3.8,<3.12
     - poetry
   run:
     - cma
@@ -26,7 +26,7 @@ requirements:
     - joblib
     - matplotlib-base
     - psutil
-    - python >=3.8
+    - python >=3.8,<3.12
     - scipy
     - sympy
     - tabulate
