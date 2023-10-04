@@ -18,7 +18,7 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.8
+    - python >=3.8,<3.12
     - poetry
   run:
     - cma
@@ -26,7 +26,7 @@ requirements:
     - joblib
     - matplotlib-base
     - psutil
-    - python >=3.8
+    - python >=3.8,<3.12
     - scipy
     - sympy
     - tabulate
