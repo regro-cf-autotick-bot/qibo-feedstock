@@ -24,8 +24,6 @@ requirements:
     - cma
     - numpy
     - joblib
-    - matplotlib-base
-    - psutil
     - python >=3.9,<3.12
     - scipy
     - sympy
