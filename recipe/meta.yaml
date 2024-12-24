@@ -11,20 +11,20 @@ source:
   sha256: 639f2edf25ef021c1780326df3ca9eaca148024697dda28a21556584e79746da
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
     - pip
-    - python >=3.9,<3.12
+    - python {{ python_min }}
     - poetry
   run:
     - cma
     - numpy
     - joblib
-    - python >=3.9,<3.12
+    - python >={{ python_min }},<3.12
     - scipy
     - sympy
     - tabulate
@@ -33,6 +33,8 @@ requirements:
     - networkx
 
 test:
+  requires:
+    - python {{ python_min }}
   imports:
     - qibo
 
